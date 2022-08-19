@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write HTML5 code for using audio element in auto play mode that will loop forever in the web page. -->
+    <audio controls autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+        your browser does not supprot autoplay
+    </audio>
+    
+    <!-- b. Write HTML code to generate the following list in HTML:[05] -->
+    <ol>
+        <li>Andhra Pradesh</li>
+        <li>Karnataka</li>
+        <ol type="i">
+            <li>District 1</li>
+            <li>District 2</li>
+            <li>District 3</li>
+        </ol>
+        <li>Telangana</li>
+        <ul>
+            <li>Country 1</li>
+            <li>Country 2</li>
+        </ul>
+        <li>Uttar Pradesh</li>
+    </ol>
+    <!-- a.Write a program to accept username and password fields from user in form; and validate if the user is authenticated or not using PHP- MySQL -->
+    <form action="" method="post">
+        <label>Username</label>
+        <input type="text" name="username">
+        <br>
+        <label>Password</label>
+        <input type="password">
+    </form>
+    <?php
+        $name = $_POST['username']
+        $pass = $_POST['password']
+        $conn = mysqli_connect('localhost','root','','test');
+        $sql = "SELECT * FROM user WHERE name=$name and pass=$pass; ";
+        if(mysqli_query($conn,$sql)){
+            echo 'User is Authenticated';
+        }
+        else{
+            echo 'User is not Authenticated';
+        }
+    ?>
+    <!-- Write CSS for an HTML page to:
+    I. Set the background image
+    II. Create a hyperlink link, when you click on this link color of link changes to green -->
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar {
+    background-color: rgb(219, 32, 219);
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover {
+    color: white
+}
+
+.grid{
+    display:grid;
+}
+
+article{
+    background-color: white;
+    line-height: 2em;
+    margin-top: 20px;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    /* max-width: 60%; */
+    text-align: left;
+}
+
+.related{
+    padding: 10px;
+    text-align: left;
+    line-height: 2em;
+    margin-top: 20px;
+    background-color: rgb(219, 32, 219);
+}
+
+footer{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: left;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pracxsl.xsl" type="text/xsl"?>
+<Library>
+    <book>
+        <name>The Lord of the Rings</name>
+        <author>J.R.R. Tolkien</author>
+        <publisher>Allen Unwin</publisher>
+        <year>1954</year>
+    </book>
+    <book>
+        <name>The Hobbit</name>
+        <author>J.R.R. Tolkien</author>
+        <publisher>Allen Unwin</publisher>
+        <year>1937</year>
+    </book>
+    <book>
+        <name>The Fellowship of the Ring</name>
+        <author>J.R.R. Tolkien</author>
+        <publisher>Allen Unwin</publisher>
+        <year>1954</year>
+    </book>
+    <book>
+        <name>The Two Towers</name>
+        <author>J.R.R. Tolkien</author>
+        <publisher>Allen Unwin</publisher>
+        <year>1954</year>
+    </book>
+</Library>
